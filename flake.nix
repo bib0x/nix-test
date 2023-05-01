@@ -26,12 +26,12 @@
       templates = {
 
         rust-dev = {
-          path = ./nix/templates/dev/rust;
+          path = ./nix/templates/rust/dev;
           description = "Rust dev environment template for Zero to Nix";
         };
 
       #  rust-pkg = {
-      #    path = ./nix/templates/pkg/rust;
+      #    path = ./nix/templates/rust/pkg/;
       #    description = "Rust package starter template for Zero to Nix";
       #  };
 
