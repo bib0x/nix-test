@@ -30,10 +30,10 @@
           description = "Rust dev environment template for Zero to Nix";
         };
 
-      #  rust-pkg = {
-      #    path = ./nix/templates/rust/pkg/;
-      #    description = "Rust package starter template for Zero to Nix";
-      #  };
+        rust-cli-app = {
+          path = ./nix/templates/rust/pkg/cli-app;
+          description = "Rust package starter template for Zero to Nix";
+        };
 
       };
     };
