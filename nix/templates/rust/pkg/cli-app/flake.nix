@@ -28,7 +28,7 @@
 
       # Helper to provide system-specific attributes
       forAllSystems = f: nixpkgs.lib.genAttrs allSystems (system: f {
-        pkgs = import nixpkgs { inherit system; };
+        pkgs = import nixpkgs { inherit overlays system; };
       });
     in
     {
@@ -57,4 +57,3 @@
 
     };
 }
-
